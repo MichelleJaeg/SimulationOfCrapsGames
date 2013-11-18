@@ -10,7 +10,7 @@ def printIntro():
     print ("This program simulates multiple games of craps, a dice game played at casinos.")
 
 def getInput():
-    n=eval(input("\nPlease enter the number of games that you would like to simulate: " ))
+    n = eval(input("\nPlease enter the number of games that you would like to simulate: "))
     return n
 
 def rollDice():
